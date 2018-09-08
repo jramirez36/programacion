@@ -24,20 +24,29 @@
 <form>
     <div>
         <label for ="nombre"> nombre: </label>
-        <input type = "text" id="nombre"/> 
+        <input type = "text" id="nombre" maxlength="10" size="50"/> 
     </div>
+
     <div>
         <label for="email" > Email:   </label>
-        <input type="email" id="email"/>
+        <input type="email" id="email" maxlength="10" size="52"/>
     </div>
+
     <div>
         <label for="comentarios">comentarios</label>
         <textarea id="comentarios"></textarea>
     </div>
+
     <div>
         <label for="paswoord">contraseña</label>
         <input type="password" id="clave"/>
     </div>
+
+    <div>
+        <label for="color">elige un color </label>
+        <input type="color" id="color"/>
+    </div>
+    
     <div>
         <button id="enviar">Enviar</button>
     </div>
